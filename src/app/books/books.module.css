@@ -1,0 +1,41 @@
+
+.featured{
+    
+    height:fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    
+    
+    
+}
+.fb{
+    text-align:center;
+    font-style: italic;
+    font-size: 2.4rem;
+}
+.featureddetails{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+    width: 350px;
+    border-right: 2px solid black;
+    border-top: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.featureddetails h1{
+    color: yellow;
+    overflow: hidden;
+}
+.info h2{
+    color: rgb(21, 255, 0);
+    overflow: hidden;
+}

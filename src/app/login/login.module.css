@@ -1,0 +1,64 @@
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   background-color: #032539;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.epp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.epp input{
+    border-radius: 20px;
+    width: 400px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+    padding: 10px;
+}
+.epp input::placeholder{
+color: #032539b3;
+text-align: center;
+}
+
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signup button{
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.01rem;
+    padding: 10px;
+    background-color: black;
+
+    color: white;
+    cursor: pointer;
+    width: 100%;
+
+}
+.signup h2{
+    text-align: center;
+    font-style: italic;
+}
+.signup a{
+    width: 400px;
+}
+.container input{
+    text-align: center;
+}

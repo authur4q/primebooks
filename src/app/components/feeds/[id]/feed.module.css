@@ -1,0 +1,64 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 5px;
+   
+    padding: 5px 250px;
+}
+.card{
+    background-color:#051d2b ;
+    border-radius: 2px;
+    color: whitesmoke;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    width: 850px;
+    align-items: center;
+    height: 250px;
+}
+.card:hover{
+    background-color: #061924;
+}
+.cardinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right:50px;
+   width: 400px;
+    height: 180px;
+    padding: 5px;
+   
+    
+}
+.cardinfo h2{
+    margin-top: -9px;
+
+}
+.profpic{
+border-radius: 300px;
+object-fit: fill;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+.Profile{
+    background-color: #051d2b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+.userInfo{
+    color: wheat;
+}
+.usersocial{
+    color: wheat;
+}
+

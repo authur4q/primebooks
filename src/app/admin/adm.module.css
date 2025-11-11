@@ -1,0 +1,101 @@
+.admin{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputs input{
+    padding: 10px;
+    background-color: rgba(7, 4, 1, 0.74);
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.inputs button{
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.users{
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-radius: 10px;
+}
+.userinfo:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgba(226, 13, 84, 0.808);
+}
+.userinfo button{
+ background-color: rgba(155, 0, 0, 0.911);
+ color: white;
+ outline: none;
+ border: none;
+ padding: 5px;
+}
+.userfeatured{
+        display: flex;
+    justify-content: space-evenly;
+}
+.adminmain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adminmain h1{
+color: rgb(211, 20, 52);
+}
+.bookdetails{
+    display: flex;
+    gap: 10px;
+    height: 160px;
+      border-radius: 10px;
+}
+.fb{
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.bdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.bookdetails:hover{
+    display: flex;
+    align-items: center;
+    background-color: rgba(226, 13, 84, 0.808);
+}
+.bookdetails button{
+     background-color: rgba(155, 0, 0, 0.911);
+ color: white;
+ outline: none;
+ border: none;
+ padding: 5px;
+ width: 150px;
+}
+.image{
+    border-radius: 20px;
+}

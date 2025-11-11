@@ -1,0 +1,148 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 5px;
+     overflow-y: scroll;
+     padding: 10px;
+     background-color:rgba(0, 0, 0, 0.301);
+     align-items: center;
+   
+   
+}
+
+.card{
+    background-color:#000508ea ;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    
+    padding: 10px;
+    justify-content: space-between;
+    width: 850px;
+    
+    
+    height: max-content;
+    
+}
+.card:hover{
+    background-color: #061924;
+}
+.cardinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+   width: 500px;
+    
+    padding: 5px;
+   
+    
+}
+.cardinfo h2{
+    margin-top: -9px;
+
+}
+.profpic{
+border-radius: 300px;
+object-fit: fill;
+}
+.rym{
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgba(247, 1, 144, 0.63);
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    
+}
+.Profile{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.userInfo h1{
+    color: rgb(212, 2, 125);
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.userInfo h2{
+    color: rgb(153, 6, 92);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.usersocial{
+    color: rgba(212, 7, 41, 0.719);
+    font-style: italic;
+}
+.usersocial h2:hover{
+    color: rgba(252, 1, 43, 0.938);
+    font-style: italic;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+.edit button{
+    padding: 10px;
+    font-size: 1.01rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+
+}
+.edit button:hover{
+    background-color: #010f175d;
+    border: none;
+    color: wheat;
+
+}
+.delup{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    cursor: pointer;
+}
+.del{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.del:hover{
+transform: scale(1.1);
+}
+.up:hover{
+transform: scale(1.1);
+}
+.up{
+    color: green;
+    font-size: 1.1rem;
+}
+.reviewinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 5px;
+}
+

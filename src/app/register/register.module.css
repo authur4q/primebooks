@@ -1,0 +1,90 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    
+}
+.name input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+    width: 300px;
+    padding: 10px;
+}
+.name input::placeholder{
+color: #032539b3;
+text-align: center;
+}
+.epp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.epp input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+    width: 300px;
+    padding: 10px;
+}
+.epp input::placeholder{
+color: #032539b3;
+text-align: center;
+}
+.picinst{
+    display: flex;
+    flex-direction: row;
+}
+.picinst input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.01rem;
+    padding: 10px;
+}
+.picinst input::placeholder{
+color: #032539b3;
+text-align: center;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signup button{
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.01rem;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.signup h2{
+    text-align: center;
+    font-style: italic;
+}
+.signup a{
+    width: 300px;
+}
+.container input{
+    text-align: center;
+}

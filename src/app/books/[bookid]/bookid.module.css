@@ -1,0 +1,148 @@
+.imagei{
+    
+    display: flex;
+    
+    text-align: start;
+    gap: 10px;
+    width: fit-content;
+    
+}
+.image{
+    border-radius: 20px;
+}
+.imagedetails h1{
+    color: rgba(255, 255, 0, 0.808);
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info h2{
+    color: rgba(128, 255, 0, 0.836);
+    font-style: italic;
+}
+.imagedetails{
+    display:flex;
+    gap:30px;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.description{
+ 
+    max-height: 300px;
+    width: 50%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.description h2{
+    text-align: center;
+    color: rgba(255, 255, 0, 0.705);
+    font-style: italic;
+}
+.description p{
+   
+  color: rgba(250, 235, 215, 0.808);
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.single{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.reviews{
+    height: 500px;
+    padding: 10px 40px 4px 40px;
+    overflow-y: scroll;
+
+}
+.reviews h3{
+font-size: 2rem;
+font-style: italic;
+font-weight: bold;
+color: rgba(255, 255, 0, 0.63);
+
+}
+
+.reviewscontent p{
+    color: rgba(255, 255, 255, 0.932);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 20px;
+    font-size: 1.08;
+    
+
+}
+.reviewsnd{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    gap: 20px;
+    color: cadetblue;
+}
+.reviewscontent{
+    min-height: 200px;
+    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.reviewtext{
+    height: 100px;
+ 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.reviewtext textarea{
+    height: 90px;
+    background-color: rgba(2, 9, 19, 0.418);
+    border-radius: 10px;
+    width: 80%;
+    overflow-x: hidden;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.09rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+    
+
+}
+.reviewtext textarea::placeholder{
+    color: rgba(240, 248, 255, 0.685);
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+
+    
+    
+
+}
+.sendicon{
+border-radius: 50px;
+cursor: pointer;
+border: none;
+outline: none;
+
+height: 90px;
+width: 90px;
+cursor: pointer;
+}
+

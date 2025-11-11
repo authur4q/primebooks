@@ -1,0 +1,94 @@
+.text{
+background-color: #fa991c;
+height: 100px;
+padding: 20px;
+margin-top: 20px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.text h1{
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+.feed{
+  display: flex;
+  flex-direction: column;
+  gap:10px ;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color: #032539;
+    border-radius:10px 10px 0px 0px ;
+    height: 500px;
+    padding: 20px;
+    gap: 30px;
+    
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    height: 500px;
+    padding: 5px;
+}
+.card{
+    background-color:#051d2b ;
+    border-radius: 2px;
+    color: whitesmoke;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    width: 750px;
+    height: 250px;
+}
+.card:hover{
+    background-color: #061924;
+}
+.cardinfo{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right:10px;
+   width: 400px;
+    height: 180px;
+    padding: 5px;
+    
+}
+.cardinfo h2{
+    margin-top: -9px;
+
+}
+.users{
+    background-color: #061924 ;
+    height: 500px;
+    overflow-y: scroll;
+    display: block;
+
+    width: 400px;
+    gap: 10px;
+    padding: 2px 20px;
+    color: rgba(255, 228, 196, 0.672);
+}
+.users h1{
+    text-align: center;
+    color: rgba(255, 228, 196, 0.672);
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+
+
+}
+.profimg{
+    border-radius: 50px;
+}
