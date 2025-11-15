@@ -1,23 +1,32 @@
+"use client"
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
-  const getData = async () => {
+
+
+
+  
+
+
+export default  function Home() {
+  const [data,setData] = useState(null);
+
+  useEffect(() => {
+      const getData = async () => {
     const res = await fetch("/api/featuredbooks", { cache: 'no-store' });
     if (!res.ok) {
       throw new Error("Failed to fetch data");
     }
-    const data = await res.json();
-    return data;
-  }
+    setData(await res.json());
     
-  
+  }
 
+  getData()
+    
+  }, []);
 
-export default async function Home() {
-
-const data = await getData();
-console.log(data);
   return (
   <div className={styles.page}>
 
