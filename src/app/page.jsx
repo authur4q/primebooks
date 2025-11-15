@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 
   const getData = async () => {
-    const res = await fetch("http://localhost:3000/api/featuredbooks", { cache: 'no-store' });
+    const res = await fetch("/api/featuredbooks", { cache: 'no-store' });
     if (!res.ok) {
       throw new Error("Failed to fetch data");
     }
