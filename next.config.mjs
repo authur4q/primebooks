@@ -1,18 +1,43 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // Add the hostnames you want to allow here
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.google.com', // Only add this if you MUST use Google search result URLs
+        hostname: 'img.wattpad.com',
+      },
+    
+      {
+        protocol: 'https',
+        hostname: 'i.gr-assets.com', 
       },
       {
         protocol: 'https',
-        hostname: 'img.wattpad.com', // Replace with the actual image host if known
+     
+        hostname: 'm.media-amazon.com', 
       },
-      // You may need to add more hostnames based on your specific images
+      {
+        protocol: 'https',
+        hostname: 'prodimage.images-bn.com', 
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.bookbub.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.randomhouse.com', 
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.google.com',
+      },
+    
     ],
   },
-}
-export default nextConfig
+
+};
+
+export default nextConfig;
